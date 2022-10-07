@@ -1,6 +1,0 @@
-import requests
-bicyan="\033[1;96m"       # Cyan
-
-response        =       requests.get("https://ipinfo.io/json")
-a=response.json() ['ip']
-print(bicyan+"   \t"+a)
